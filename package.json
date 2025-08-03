@@ -1,32 +1,17 @@
-<<<<<<< HEAD
 {
   "name": "qasim-portfolio",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^17.0.1",
-=======
-
-
-
-{
-  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
->>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
+    "dotenv": "^17.0.1",
     "ejs": "^3.1.10",
     "express": "^5.1.0"
   }
