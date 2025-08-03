@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // app.js
 const express = require('express');
 const path = require('path');
@@ -47,4 +46,3 @@ app.listen(3000, '0.0.0.0', () => {
   console.log("Server chal raha hai port 3000 par (LAN access enabled)");
 });
 
->>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
