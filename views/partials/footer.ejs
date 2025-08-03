@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- views/partials/footer.ejs -->
 <footer class="footer-glass">
   <div class="footer-container">
@@ -14,10 +15,29 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+=======
+<footer class="bioza-footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <h2 class="brand">Qasim Usman</h2>
+      <p>Full-Stack Developer | JWT Auth | Node.js | MongoDB | REST APIs</p>
+      <p>From Abbottabad, building secure & beautiful web apps 💻</p>
+    </div>
+
+    <div class="footer-center">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/skills">Skills</a></li>
+        <li><a href="/timeline">Journey</a></li>
+        <li><a href="/contact">Contact</a></li>
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
       </ul>
     </div>
 
     <div class="footer-right">
+<<<<<<< HEAD
       <h4>Connect</h4>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/qasim-usman" target="_blank" title="LinkedIn">
@@ -49,6 +69,42 @@
   }
 
   .footer-container {
+=======
+      <h3>Connect</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="tech-stack">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <%= new Date().getFullYear() %> Qasim Usman. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- 🌈 Footer CSS -->
+<style>
+  .bioza-footer {
+    background: linear-gradient(135deg, #0d0d0d, #111111);
+    color: #ccc;
+    padding: 4rem 2rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 -5px 20px #00fff750;
+  }
+
+  .footer-inner {
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -57,6 +113,7 @@
     gap: 2rem;
   }
 
+<<<<<<< HEAD
   .footer-left h2 {
     font-size: 1.6rem;
     background: linear-gradient(90deg, #00fff7, #ff00ff);
@@ -70,15 +127,41 @@
 
   .footer-center h4,
   .footer-right h4 {
+=======
+  .footer-left, .footer-center, .footer-right {
+    flex: 1 1 300px;
+  }
+
+  .brand {
+    font-size: 1.8rem;
+    color: #00fff7;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 0 15px #00fff7;
+  }
+
+  .footer-left p {
+    font-size: 1rem;
+    color: #aaa;
+    line-height: 1.6;
+  }
+
+  .footer-center h3,
+  .footer-right h3 {
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
     color: #00fff7;
     margin-bottom: 1rem;
   }
 
+<<<<<<< HEAD
   .footer-center ul {
+=======
+  .footer-links {
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
     list-style: none;
     padding: 0;
   }
 
+<<<<<<< HEAD
   .footer-center ul li {
     margin: 0.3rem 0;
   }
@@ -91,11 +174,27 @@
 
   .footer-center ul li a:hover {
     color: #00fff7;
+=======
+  .footer-links li {
+    margin: 0.5rem 0;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: #00fff7;
+    text-shadow: 0 0 5px #00fff7;
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
   }
 
   .social-icons a {
     font-size: 1.4rem;
     margin-right: 1rem;
+<<<<<<< HEAD
     color: #ccc;
     transition: 0.3s ease;
   }
@@ -103,10 +202,35 @@
   .social-icons a:hover {
     color: #00fff7;
     transform: scale(1.2);
+=======
+    color: #00fff7;
+    transition: 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .tech-stack {
+    margin-top: 1rem;
+  }
+
+  .tech-stack img {
+    height: 35px;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 5px #00fff7);
+    transition: transform 0.3s;
+  }
+
+  .tech-stack img:hover {
+    transform: scale(1.1);
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
   }
 
   .footer-bottom {
     text-align: center;
+<<<<<<< HEAD
     margin-top: 2rem;
     font-size: 0.9rem;
     color: #777;
@@ -114,12 +238,40 @@
 
   @media (max-width: 768px) {
     .footer-container {
+=======
+    margin-top: 3rem;
+    border-top: 1px solid #333;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #888;
+  }
+
+  @media (max-width: 768px) {
+    .footer-inner {
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
+<<<<<<< HEAD
   }
 </style>
 
 <!-- Font Awesome CDN (Add in your <head> once globally) -->
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> -->
+=======
+
+    .footer-left, .footer-center, .footer-right {
+      flex: 1 1 100%;
+    }
+
+    .tech-stack img {
+      height: 30px;
+    }
+  }
+</style>
+
+<!-- ✅ FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- 🌟 Premium Glowing Divider -->
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206

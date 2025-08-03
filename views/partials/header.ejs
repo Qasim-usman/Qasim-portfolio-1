@@ -1,9 +1,13 @@
 <!-- views/partials/header.ejs -->
 <header class="navbar-glass">
   <div class="nav-container">
+<<<<<<< HEAD
     <div class="nav-logo">
       <a href="/">Qasim<span>Usman</span></a>
     </div>
+=======
+    <div class="nav-logo"><a href="/">Qasim<span>Usman</span></a></div>
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
     <div class="nav-toggle" id="nav-toggle">&#9776;</div>
     <ul class="nav-menu" id="nav-menu">
       <li><a href="/">Home</a></li>
@@ -15,7 +19,10 @@
   </div>
 </header>
 
+<<<<<<< HEAD
 <!-- 🌟 CSS inside header -->
+=======
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
@@ -24,6 +31,10 @@
     font-family: 'Orbitron', sans-serif;
     background: #0d0d0d;
     color: #fff;
+<<<<<<< HEAD
+=======
+    overflow-x: hidden; /* optional improvement */
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
   }
 
   .navbar-glass {
@@ -126,7 +137,10 @@
   }
 </style>
 
+<<<<<<< HEAD
 <!-- 📱 Mobile Toggle Script -->
+=======
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const toggle = document.getElementById("nav-toggle");
@@ -135,5 +149,18 @@
     toggle.addEventListener("click", () => {
       menu.classList.toggle("show");
     });
+<<<<<<< HEAD
+=======
+
+    // Optional: Close menu on mobile when a link is clicked
+    const navLinks = document.querySelectorAll(".nav-menu li a");
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        if (menu.classList.contains("show")) {
+          menu.classList.remove("show");
+        }
+      });
+    });
+>>>>>>> 5ffa16653612014a9711ebc1d776c79ab132a206
   });
 </script>
